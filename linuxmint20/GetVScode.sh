@@ -7,3 +7,5 @@ sudo sh -c 'echo "deb [arch=amd64] https://packages.microsoft.com/repos/vscode s
 sudo apt update -y
 sudo apt install code -y
 KUBE_EDITOR='code -w' //set this as enviornmental variable
+npm install -g eslint
+
